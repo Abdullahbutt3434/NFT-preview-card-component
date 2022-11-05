@@ -28,7 +28,7 @@ body{
 
 .card{
     background-color: var(--Very-dark-blue-card);
-    height: calc(85vh - 1px);
+    height: auto;
     /* padding: 10px 12px 10px 12px; */
     width: 295px;
     border-radius: 10px;
@@ -115,6 +115,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 1.25rem;
+    margin-bottom: 1rem;
 }
 .card .avatar{
     width: 30px;
@@ -138,7 +139,7 @@ body{
 
 .attribution {
     position: absolute;
-    /* bottom: 0; */
+    bottom: 0;
      font-size: 11px;
      text-align: center;
  }
